@@ -7,6 +7,8 @@ target 'VNNetWorking' do
 
   # Pods for VNNetWorking
   pod 'AFNetworking', '~> 3.2.1'
+  pod "HandyFrame"
+  pod "CTNetworking"
   target 'VNNetWorkingTests' do
     inherit! :search_paths
     # Pods for testing

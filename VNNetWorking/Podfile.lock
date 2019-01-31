@@ -14,17 +14,30 @@ PODS:
   - AFNetworking/Serialization (3.2.1)
   - AFNetworking/UIKit (3.2.1):
     - AFNetworking/NSURLSession
+  - CTMediator (25)
+  - CTNetworking (14):
+    - AFNetworking
+    - CTMediator
+  - HandyFrame (1.2.0)
 
 DEPENDENCIES:
   - AFNetworking (~> 3.2.1)
+  - CTNetworking
+  - HandyFrame
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - AFNetworking
+    - CTMediator
+    - CTNetworking
+    - HandyFrame
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  CTMediator: 830c1fc204b3a6abf2a059510c7380f56343da0f
+  CTNetworking: 1d76c25dc81eec59744a31559959522319020b81
+  HandyFrame: 437df83ba7563c56cd55b9bd0128561995463110
 
-PODFILE CHECKSUM: 28dd2fb15fc646321aba2de1142fe092b8b86058
+PODFILE CHECKSUM: 6f1cdcc66ea78e8902b453362240dfe135e870a0
 
 COCOAPODS: 1.5.3

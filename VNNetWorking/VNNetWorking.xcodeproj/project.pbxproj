@@ -10,6 +10,13 @@
 		22AC2C0D22019F1A008FEAD9 /* AFAppDotNetAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 22AC2C0C22019F1A008FEAD9 /* AFAppDotNetAPIClient.m */; };
 		22AC2C102201A9A5008FEAD9 /* GlobalTimelineTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22AC2C0F2201A9A5008FEAD9 /* GlobalTimelineTableViewController.m */; };
 		22AC2C162201AFA9008FEAD9 /* Post.m in Sources */ = {isa = PBXBuildFile; fileRef = 22AC2C122201AFA8008FEAD9 /* Post.m */; };
+		22B7ED352202CE5E00625ABA /* CTPageAPIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B7ED342202CE5E00625ABA /* CTPageAPIViewController.m */; };
+		22B7ED3A2202DE6C00625ABA /* CTAMapAssistantInputTipsAPIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B7ED392202DE6C00625ABA /* CTAMapAssistantInputTipsAPIManager.m */; };
+		22B7ED3D2202E00600625ABA /* ResultView.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B7ED3C2202E00600625ABA /* ResultView.m */; };
+		22B7ED452202E2A800625ABA /* Target_CTAMapService.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B7ED402202E2A800625ABA /* Target_CTAMapService.m */; };
+		22B7ED462202E2A800625ABA /* CTAMapService.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B7ED442202E2A800625ABA /* CTAMapService.m */; };
+		22B7ED4E2202E31500625ABA /* Target_CTAppContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B7ED492202E31500625ABA /* Target_CTAppContext.m */; };
+		22B7ED4F2202E31500625ABA /* Target_CTAMapKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B7ED4C2202E31500625ABA /* Target_CTAMapKey.m */; };
 		22BADC7C21FABC18005873A3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22BADC7B21FABC18005873A3 /* AppDelegate.m */; };
 		22BADC7F21FABC18005873A3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22BADC7E21FABC18005873A3 /* ViewController.m */; };
 		22BADC8221FABC18005873A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22BADC8021FABC18005873A3 /* Main.storyboard */; };
@@ -43,6 +50,20 @@
 		22AC2C0F2201A9A5008FEAD9 /* GlobalTimelineTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GlobalTimelineTableViewController.m; sourceTree = "<group>"; };
 		22AC2C122201AFA8008FEAD9 /* Post.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Post.m; sourceTree = "<group>"; };
 		22AC2C152201AFA9008FEAD9 /* Post.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Post.h; sourceTree = "<group>"; };
+		22B7ED332202CE5E00625ABA /* CTPageAPIViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTPageAPIViewController.h; sourceTree = "<group>"; };
+		22B7ED342202CE5E00625ABA /* CTPageAPIViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTPageAPIViewController.m; sourceTree = "<group>"; };
+		22B7ED382202DE6C00625ABA /* CTAMapAssistantInputTipsAPIManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTAMapAssistantInputTipsAPIManager.h; sourceTree = "<group>"; };
+		22B7ED392202DE6C00625ABA /* CTAMapAssistantInputTipsAPIManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTAMapAssistantInputTipsAPIManager.m; sourceTree = "<group>"; };
+		22B7ED3B2202E00600625ABA /* ResultView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ResultView.h; sourceTree = "<group>"; };
+		22B7ED3C2202E00600625ABA /* ResultView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ResultView.m; sourceTree = "<group>"; };
+		22B7ED402202E2A800625ABA /* Target_CTAMapService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Target_CTAMapService.m; sourceTree = "<group>"; };
+		22B7ED412202E2A800625ABA /* Target_CTAMapService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Target_CTAMapService.h; sourceTree = "<group>"; };
+		22B7ED432202E2A800625ABA /* CTAMapService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTAMapService.h; sourceTree = "<group>"; };
+		22B7ED442202E2A800625ABA /* CTAMapService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTAMapService.m; sourceTree = "<group>"; };
+		22B7ED492202E31500625ABA /* Target_CTAppContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Target_CTAppContext.m; sourceTree = "<group>"; };
+		22B7ED4A2202E31500625ABA /* Target_CTAppContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Target_CTAppContext.h; sourceTree = "<group>"; };
+		22B7ED4C2202E31500625ABA /* Target_CTAMapKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Target_CTAMapKey.m; sourceTree = "<group>"; };
+		22B7ED4D2202E31500625ABA /* Target_CTAMapKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Target_CTAMapKey.h; sourceTree = "<group>"; };
 		22BADC7721FABC18005873A3 /* VNNetWorking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VNNetWorking.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22BADC7A21FABC18005873A3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		22BADC7B21FABC18005873A3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -104,6 +125,83 @@
 			path = "AF Example";
 			sourceTree = "<group>";
 		};
+		22B7ED362202CE6200625ABA /* CT Example */ = {
+			isa = PBXGroup;
+			children = (
+				22B7ED3F2202E2A800625ABA /* Target */,
+				22B7ED472202E31500625ABA /* Target */,
+				22B7ED372202DE6C00625ABA /* CTAMapAssistantInputTipsAPIManager */,
+				22B7ED332202CE5E00625ABA /* CTPageAPIViewController.h */,
+				22B7ED342202CE5E00625ABA /* CTPageAPIViewController.m */,
+			);
+			path = "CT Example";
+			sourceTree = "<group>";
+		};
+		22B7ED372202DE6C00625ABA /* CTAMapAssistantInputTipsAPIManager */ = {
+			isa = PBXGroup;
+			children = (
+				22B7ED382202DE6C00625ABA /* CTAMapAssistantInputTipsAPIManager.h */,
+				22B7ED392202DE6C00625ABA /* CTAMapAssistantInputTipsAPIManager.m */,
+			);
+			path = CTAMapAssistantInputTipsAPIManager;
+			sourceTree = "<group>";
+		};
+		22B7ED3E2202E00E00625ABA /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				22B7ED3B2202E00600625ABA /* ResultView.h */,
+				22B7ED3C2202E00600625ABA /* ResultView.m */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		22B7ED3F2202E2A800625ABA /* Target */ = {
+			isa = PBXGroup;
+			children = (
+				22B7ED412202E2A800625ABA /* Target_CTAMapService.h */,
+				22B7ED402202E2A800625ABA /* Target_CTAMapService.m */,
+				22B7ED422202E2A800625ABA /* Service */,
+			);
+			path = Target;
+			sourceTree = "<group>";
+		};
+		22B7ED422202E2A800625ABA /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				22B7ED432202E2A800625ABA /* CTAMapService.h */,
+				22B7ED442202E2A800625ABA /* CTAMapService.m */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		22B7ED472202E31500625ABA /* Target */ = {
+			isa = PBXGroup;
+			children = (
+				22B7ED482202E31500625ABA /* CTAppContext */,
+				22B7ED4B2202E31500625ABA /* Key */,
+			);
+			name = Target;
+			path = ../../../../../MyRepoOne/CTAPI_AMap/CTAPI_AMap/Demo/Target;
+			sourceTree = "<group>";
+		};
+		22B7ED482202E31500625ABA /* CTAppContext */ = {
+			isa = PBXGroup;
+			children = (
+				22B7ED492202E31500625ABA /* Target_CTAppContext.m */,
+				22B7ED4A2202E31500625ABA /* Target_CTAppContext.h */,
+			);
+			path = CTAppContext;
+			sourceTree = "<group>";
+		};
+		22B7ED4B2202E31500625ABA /* Key */ = {
+			isa = PBXGroup;
+			children = (
+				22B7ED4C2202E31500625ABA /* Target_CTAMapKey.m */,
+				22B7ED4D2202E31500625ABA /* Target_CTAMapKey.h */,
+			);
+			path = Key;
+			sourceTree = "<group>";
+		};
 		22BADC6E21FABC18005873A3 = {
 			isa = PBXGroup;
 			children = (
@@ -132,9 +230,11 @@
 				22BADC7B21FABC18005873A3 /* AppDelegate.m */,
 				22BADC7D21FABC18005873A3 /* ViewController.h */,
 				22BADC7E21FABC18005873A3 /* ViewController.m */,
+				22B7ED362202CE6200625ABA /* CT Example */,
 				22AC2C112201AF50008FEAD9 /* AF Example */,
 				22AC2C0A220193AF008FEAD9 /* PrefixHeader.pch */,
 				22BADC8021FABC18005873A3 /* Main.storyboard */,
+				22B7ED3E2202E00E00625ABA /* Utilities */,
 				22BADC8321FABC1A005873A3 /* Assets.xcassets */,
 				22BADC8521FABC1A005873A3 /* LaunchScreen.storyboard */,
 				22BADC8821FABC1A005873A3 /* Info.plist */,
@@ -355,16 +455,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22B7ED3D2202E00600625ABA /* ResultView.m in Sources */,
 				22AC2C0D22019F1A008FEAD9 /* AFAppDotNetAPIClient.m in Sources */,
+				22B7ED452202E2A800625ABA /* Target_CTAMapService.m in Sources */,
+				22B7ED4E2202E31500625ABA /* Target_CTAppContext.m in Sources */,
 				22BADCB021FAE955005873A3 /* VNAPIManager+home.m in Sources */,
 				22BADCA021FABCAD005873A3 /* VNUrlSession.m in Sources */,
+				22B7ED462202E2A800625ABA /* CTAMapService.m in Sources */,
 				22BADC7F21FABC18005873A3 /* ViewController.m in Sources */,
+				22B7ED4F2202E31500625ABA /* Target_CTAMapKey.m in Sources */,
+				22B7ED3A2202DE6C00625ABA /* CTAMapAssistantInputTipsAPIManager.m in Sources */,
 				22BADCA321FABD4A005873A3 /* VNAPIManager.m in Sources */,
 				22AC2C162201AFA9008FEAD9 /* Post.m in Sources */,
 				22BADC8A21FABC1A005873A3 /* main.m in Sources */,
 				22BADCA621FABDAD005873A3 /* VNAPIDataFunc.m in Sources */,
 				22BADC7C21FABC18005873A3 /* AppDelegate.m in Sources */,
 				22AC2C102201A9A5008FEAD9 /* GlobalTimelineTableViewController.m in Sources */,
+				22B7ED352202CE5E00625ABA /* CTPageAPIViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
