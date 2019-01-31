@@ -12,6 +12,7 @@
  */
 #import "VNAPIManager.h"
 #import "VNAPIManager+home.h"
+#import "Post.h"
 
 NS_ASSUME_NONNULL_BEGIN
 

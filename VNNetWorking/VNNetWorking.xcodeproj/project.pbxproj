@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		22AC2C0D22019F1A008FEAD9 /* AFAppDotNetAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 22AC2C0C22019F1A008FEAD9 /* AFAppDotNetAPIClient.m */; };
+		22AC2C102201A9A5008FEAD9 /* GlobalTimelineTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22AC2C0F2201A9A5008FEAD9 /* GlobalTimelineTableViewController.m */; };
+		22AC2C162201AFA9008FEAD9 /* Post.m in Sources */ = {isa = PBXBuildFile; fileRef = 22AC2C122201AFA8008FEAD9 /* Post.m */; };
 		22BADC7C21FABC18005873A3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22BADC7B21FABC18005873A3 /* AppDelegate.m */; };
 		22BADC7F21FABC18005873A3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22BADC7E21FABC18005873A3 /* ViewController.m */; };
 		22BADC8221FABC18005873A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22BADC8021FABC18005873A3 /* Main.storyboard */; };
@@ -18,6 +21,8 @@
 		22BADCA321FABD4A005873A3 /* VNAPIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 22BADCA221FABD4A005873A3 /* VNAPIManager.m */; };
 		22BADCA621FABDAD005873A3 /* VNAPIDataFunc.m in Sources */ = {isa = PBXBuildFile; fileRef = 22BADCA521FABDAD005873A3 /* VNAPIDataFunc.m */; };
 		22BADCB021FAE955005873A3 /* VNAPIManager+home.m in Sources */ = {isa = PBXBuildFile; fileRef = 22BADCAF21FAE955005873A3 /* VNAPIManager+home.m */; };
+		CD0517D01971940052ACD7D6 /* libPods-VNNetWorking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E96BC2A89CF2BE5C98A213E /* libPods-VNNetWorking.a */; };
+		F1124F062273691255F3C603 /* libPods-VNNetWorkingTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7893066015F44F3A4389C8A7 /* libPods-VNNetWorkingTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +37,12 @@
 
 /* Begin PBXFileReference section */
 		22AC2C0A220193AF008FEAD9 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		22AC2C0B22019F1A008FEAD9 /* AFAppDotNetAPIClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFAppDotNetAPIClient.h; sourceTree = "<group>"; };
+		22AC2C0C22019F1A008FEAD9 /* AFAppDotNetAPIClient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFAppDotNetAPIClient.m; sourceTree = "<group>"; };
+		22AC2C0E2201A9A5008FEAD9 /* GlobalTimelineTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GlobalTimelineTableViewController.h; sourceTree = "<group>"; };
+		22AC2C0F2201A9A5008FEAD9 /* GlobalTimelineTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GlobalTimelineTableViewController.m; sourceTree = "<group>"; };
+		22AC2C122201AFA8008FEAD9 /* Post.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Post.m; sourceTree = "<group>"; };
+		22AC2C152201AFA9008FEAD9 /* Post.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Post.h; sourceTree = "<group>"; };
 		22BADC7721FABC18005873A3 /* VNNetWorking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VNNetWorking.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22BADC7A21FABC18005873A3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		22BADC7B21FABC18005873A3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -54,6 +65,12 @@
 		22BADCAA21FAE642005873A3 /* VNNetHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VNNetHeader.h; sourceTree = "<group>"; };
 		22BADCAE21FAE955005873A3 /* VNAPIManager+home.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VNAPIManager+home.h"; sourceTree = "<group>"; };
 		22BADCAF21FAE955005873A3 /* VNAPIManager+home.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "VNAPIManager+home.m"; sourceTree = "<group>"; };
+		2E96BC2A89CF2BE5C98A213E /* libPods-VNNetWorking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VNNetWorking.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		472C35633A57B2B773D11489 /* Pods-VNNetWorking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VNNetWorking.release.xcconfig"; path = "Pods/Target Support Files/Pods-VNNetWorking/Pods-VNNetWorking.release.xcconfig"; sourceTree = "<group>"; };
+		7893066015F44F3A4389C8A7 /* libPods-VNNetWorkingTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VNNetWorkingTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CDFB0865D7BF1220F7FEDD2 /* Pods-VNNetWorking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VNNetWorking.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VNNetWorking/Pods-VNNetWorking.debug.xcconfig"; sourceTree = "<group>"; };
+		850083F89C853062FDD72F80 /* Pods-VNNetWorkingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VNNetWorkingTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VNNetWorkingTests/Pods-VNNetWorkingTests.release.xcconfig"; sourceTree = "<group>"; };
+		C3FDC488D9576AA2EE2E8D9B /* Pods-VNNetWorkingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VNNetWorkingTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VNNetWorkingTests/Pods-VNNetWorkingTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD0517D01971940052ACD7D6 /* libPods-VNNetWorking.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,18 +86,32 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1124F062273691255F3C603 /* libPods-VNNetWorkingTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		22AC2C112201AF50008FEAD9 /* AF Example */ = {
+			isa = PBXGroup;
+			children = (
+				22AC2C152201AFA9008FEAD9 /* Post.h */,
+				22AC2C122201AFA8008FEAD9 /* Post.m */,
+				22AC2C0E2201A9A5008FEAD9 /* GlobalTimelineTableViewController.h */,
+				22AC2C0F2201A9A5008FEAD9 /* GlobalTimelineTableViewController.m */,
+			);
+			path = "AF Example";
+			sourceTree = "<group>";
+		};
 		22BADC6E21FABC18005873A3 = {
 			isa = PBXGroup;
 			children = (
 				22BADC7921FABC18005873A3 /* VNNetWorking */,
 				22BADC9221FABC1A005873A3 /* VNNetWorkingTests */,
 				22BADC7821FABC18005873A3 /* Products */,
+				33CDFC1DBBD6553F4AB6E0A1 /* Pods */,
+				8267C28E24E36E82C6B01498 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,6 +132,7 @@
 				22BADC7B21FABC18005873A3 /* AppDelegate.m */,
 				22BADC7D21FABC18005873A3 /* ViewController.h */,
 				22BADC7E21FABC18005873A3 /* ViewController.m */,
+				22AC2C112201AF50008FEAD9 /* AF Example */,
 				22AC2C0A220193AF008FEAD9 /* PrefixHeader.pch */,
 				22BADC8021FABC18005873A3 /* Main.storyboard */,
 				22BADC8321FABC1A005873A3 /* Assets.xcassets */,
@@ -135,6 +168,8 @@
 			children = (
 				22BADC9E21FABCAD005873A3 /* VNUrlSession.h */,
 				22BADC9F21FABCAD005873A3 /* VNUrlSession.m */,
+				22AC2C0B22019F1A008FEAD9 /* AFAppDotNetAPIClient.h */,
+				22AC2C0C22019F1A008FEAD9 /* AFAppDotNetAPIClient.m */,
 			);
 			path = UrlSession;
 			sourceTree = "<group>";
@@ -151,6 +186,26 @@
 			path = APIManagers;
 			sourceTree = "<group>";
 		};
+		33CDFC1DBBD6553F4AB6E0A1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7CDFB0865D7BF1220F7FEDD2 /* Pods-VNNetWorking.debug.xcconfig */,
+				472C35633A57B2B773D11489 /* Pods-VNNetWorking.release.xcconfig */,
+				C3FDC488D9576AA2EE2E8D9B /* Pods-VNNetWorkingTests.debug.xcconfig */,
+				850083F89C853062FDD72F80 /* Pods-VNNetWorkingTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8267C28E24E36E82C6B01498 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2E96BC2A89CF2BE5C98A213E /* libPods-VNNetWorking.a */,
+				7893066015F44F3A4389C8A7 /* libPods-VNNetWorkingTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -158,6 +213,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 22BADC9821FABC1A005873A3 /* Build configuration list for PBXNativeTarget "VNNetWorking" */;
 			buildPhases = (
+				2A5B88471949739D8AEA6782 /* [CP] Check Pods Manifest.lock */,
 				22BADC7321FABC18005873A3 /* Sources */,
 				22BADC7421FABC18005873A3 /* Frameworks */,
 				22BADC7521FABC18005873A3 /* Resources */,
@@ -175,6 +231,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 22BADC9B21FABC1A005873A3 /* Build configuration list for PBXNativeTarget "VNNetWorkingTests" */;
 			buildPhases = (
+				FCB520AFEBEA80F02D0D709C /* [CP] Check Pods Manifest.lock */,
 				22BADC8B21FABC1A005873A3 /* Sources */,
 				22BADC8C21FABC1A005873A3 /* Frameworks */,
 				22BADC8D21FABC1A005873A3 /* Resources */,
@@ -246,18 +303,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2A5B88471949739D8AEA6782 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VNNetWorking-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FCB520AFEBEA80F02D0D709C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VNNetWorkingTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		22BADC7321FABC18005873A3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22AC2C0D22019F1A008FEAD9 /* AFAppDotNetAPIClient.m in Sources */,
 				22BADCB021FAE955005873A3 /* VNAPIManager+home.m in Sources */,
 				22BADCA021FABCAD005873A3 /* VNUrlSession.m in Sources */,
 				22BADC7F21FABC18005873A3 /* ViewController.m in Sources */,
 				22BADCA321FABD4A005873A3 /* VNAPIManager.m in Sources */,
+				22AC2C162201AFA9008FEAD9 /* Post.m in Sources */,
 				22BADC8A21FABC1A005873A3 /* main.m in Sources */,
 				22BADCA621FABDAD005873A3 /* VNAPIDataFunc.m in Sources */,
 				22BADC7C21FABC18005873A3 /* AppDelegate.m in Sources */,
+				22AC2C102201A9A5008FEAD9 /* GlobalTimelineTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,6 +520,7 @@
 		};
 		22BADC9921FABC1A005873A3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CDFB0865D7BF1220F7FEDD2 /* Pods-VNNetWorking.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -430,6 +538,7 @@
 		};
 		22BADC9A21FABC1A005873A3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 472C35633A57B2B773D11489 /* Pods-VNNetWorking.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -447,6 +556,7 @@
 		};
 		22BADC9C21FABC1A005873A3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3FDC488D9576AA2EE2E8D9B /* Pods-VNNetWorkingTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -466,6 +576,7 @@
 		};
 		22BADC9D21FABC1A005873A3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 850083F89C853062FDD72F80 /* Pods-VNNetWorkingTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
