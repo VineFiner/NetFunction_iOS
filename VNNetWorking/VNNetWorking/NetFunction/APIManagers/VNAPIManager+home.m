@@ -18,6 +18,8 @@
     [URLStr appendFormat:@"&page=%ld",pageNum];
     [URLStr appendFormat:@"&gv=4.5.1&av=4.5.1&uid=865665020505370&deviceid=865665020505370&proid=ifengnews"];
     
+    DebugLog(@"%@",[NSString stringWithFormat:@"%@",URLStr]);
+    
     [[VNUrlSession defaultSession] accessServerWithURLStr:URLStr andHandler:^(NSData *data, NSError *error) {
         handler(data, error);
     }];

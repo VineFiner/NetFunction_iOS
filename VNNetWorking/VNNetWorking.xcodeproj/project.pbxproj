@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		221065C3221E945A003F2F89 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221065C2221E945A003F2F89 /* ListViewController.swift */; };
 		22BADC7C21FABC18005873A3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22BADC7B21FABC18005873A3 /* AppDelegate.m */; };
 		22BADC7F21FABC18005873A3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22BADC7E21FABC18005873A3 /* ViewController.m */; };
 		22BADC8221FABC18005873A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22BADC8021FABC18005873A3 /* Main.storyboard */; };
@@ -18,6 +19,7 @@
 		22BADCA321FABD4A005873A3 /* VNAPIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 22BADCA221FABD4A005873A3 /* VNAPIManager.m */; };
 		22BADCA621FABDAD005873A3 /* VNAPIDataFunc.m in Sources */ = {isa = PBXBuildFile; fileRef = 22BADCA521FABDAD005873A3 /* VNAPIDataFunc.m */; };
 		22BADCB021FAE955005873A3 /* VNAPIManager+home.m in Sources */ = {isa = PBXBuildFile; fileRef = 22BADCAF21FAE955005873A3 /* VNAPIManager+home.m */; };
+		22E3AA572216CB70000A6693 /* ListRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E3AA562216CB70000A6693 /* ListRequest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +33,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		221065C2221E945A003F2F89 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		22AC2C0A220193AF008FEAD9 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		22BADC7721FABC18005873A3 /* VNNetWorking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VNNetWorking.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22BADC7A21FABC18005873A3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -54,6 +57,8 @@
 		22BADCAA21FAE642005873A3 /* VNNetHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VNNetHeader.h; sourceTree = "<group>"; };
 		22BADCAE21FAE955005873A3 /* VNAPIManager+home.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VNAPIManager+home.h"; sourceTree = "<group>"; };
 		22BADCAF21FAE955005873A3 /* VNAPIManager+home.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "VNAPIManager+home.m"; sourceTree = "<group>"; };
+		22E3AA552216CB70000A6693 /* VNNetWorking-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VNNetWorking-Bridging-Header.h"; sourceTree = "<group>"; };
+		22E3AA562216CB70000A6693 /* ListRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRequest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,17 +100,21 @@
 		22BADC7921FABC18005873A3 /* VNNetWorking */ = {
 			isa = PBXGroup;
 			children = (
+				22BADCA821FABDCE005873A3 /* UrlSession */,
+				22E3AA582216CB78000A6693 /* SwiftNetFunction */,
 				22BADCA721FABDB9005873A3 /* NetFunction */,
 				22BADC7A21FABC18005873A3 /* AppDelegate.h */,
 				22BADC7B21FABC18005873A3 /* AppDelegate.m */,
 				22BADC7D21FABC18005873A3 /* ViewController.h */,
 				22BADC7E21FABC18005873A3 /* ViewController.m */,
+				221065C2221E945A003F2F89 /* ListViewController.swift */,
 				22AC2C0A220193AF008FEAD9 /* PrefixHeader.pch */,
 				22BADC8021FABC18005873A3 /* Main.storyboard */,
 				22BADC8321FABC1A005873A3 /* Assets.xcassets */,
 				22BADC8521FABC1A005873A3 /* LaunchScreen.storyboard */,
 				22BADC8821FABC1A005873A3 /* Info.plist */,
 				22BADC8921FABC1A005873A3 /* main.m */,
+				22E3AA552216CB70000A6693 /* VNNetWorking-Bridging-Header.h */,
 			);
 			path = VNNetWorking;
 			sourceTree = "<group>";
@@ -125,7 +134,6 @@
 				22BADCA421FABDAD005873A3 /* VNAPIDataFunc.h */,
 				22BADCA521FABDAD005873A3 /* VNAPIDataFunc.m */,
 				22BADCA921FABF1A005873A3 /* APIManagers */,
-				22BADCA821FABDCE005873A3 /* UrlSession */,
 			);
 			path = NetFunction;
 			sourceTree = "<group>";
@@ -149,6 +157,14 @@
 				22BADCAF21FAE955005873A3 /* VNAPIManager+home.m */,
 			);
 			path = APIManagers;
+			sourceTree = "<group>";
+		};
+		22E3AA582216CB78000A6693 /* SwiftNetFunction */ = {
+			isa = PBXGroup;
+			children = (
+				22E3AA562216CB70000A6693 /* ListRequest.swift */,
+			);
+			path = SwiftNetFunction;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,6 +216,7 @@
 				TargetAttributes = {
 					22BADC7621FABC18005873A3 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 					22BADC8E21FABC1A005873A3 = {
 						CreatedOnToolsVersion = 10.1;
@@ -252,9 +269,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				22BADCB021FAE955005873A3 /* VNAPIManager+home.m in Sources */,
+				22E3AA572216CB70000A6693 /* ListRequest.swift in Sources */,
 				22BADCA021FABCAD005873A3 /* VNUrlSession.m in Sources */,
 				22BADC7F21FABC18005873A3 /* ViewController.m in Sources */,
 				22BADCA321FABD4A005873A3 /* VNAPIManager.m in Sources */,
+				221065C3221E945A003F2F89 /* ListViewController.swift in Sources */,
 				22BADC8A21FABC1A005873A3 /* main.m in Sources */,
 				22BADCA621FABDAD005873A3 /* VNAPIDataFunc.m in Sources */,
 				22BADC7C21FABC18005873A3 /* AppDelegate.m in Sources */,
@@ -415,8 +434,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N3PJA24574;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/VNNetWorking/PrefixHeader.pch";
 				INFOPLIST_FILE = VNNetWorking/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -424,6 +446,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.chuangbie.VNNetWorking;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "VNNetWorking/VNNetWorking-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -432,8 +457,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N3PJA24574;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/VNNetWorking/PrefixHeader.pch";
 				INFOPLIST_FILE = VNNetWorking/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -441,6 +469,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.chuangbie.VNNetWorking;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "VNNetWorking/VNNetWorking-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -448,6 +478,7 @@
 		22BADC9C21FABC1A005873A3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N3PJA24574;
@@ -467,6 +498,7 @@
 		22BADC9D21FABC1A005873A3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N3PJA24574;
