@@ -79,6 +79,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		221B5AC8221F94010046B680 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				22BADC7A21FABC18005873A3 /* AppDelegate.h */,
+				22BADC7B21FABC18005873A3 /* AppDelegate.m */,
+				22AC2C0A220193AF008FEAD9 /* PrefixHeader.pch */,
+				22E3AA552216CB70000A6693 /* VNNetWorking-Bridging-Header.h */,
+				22BADC8021FABC18005873A3 /* Main.storyboard */,
+				22BADC8321FABC1A005873A3 /* Assets.xcassets */,
+				22BADC8521FABC1A005873A3 /* LaunchScreen.storyboard */,
+				22BADC8921FABC1A005873A3 /* main.m */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
 		22BADC6E21FABC18005873A3 = {
 			isa = PBXGroup;
 			children = (
@@ -103,18 +118,11 @@
 				22BADCA821FABDCE005873A3 /* UrlSession */,
 				22E3AA582216CB78000A6693 /* SwiftNetFunction */,
 				22BADCA721FABDB9005873A3 /* NetFunction */,
-				22BADC7A21FABC18005873A3 /* AppDelegate.h */,
-				22BADC7B21FABC18005873A3 /* AppDelegate.m */,
 				22BADC7D21FABC18005873A3 /* ViewController.h */,
 				22BADC7E21FABC18005873A3 /* ViewController.m */,
 				221065C2221E945A003F2F89 /* ListViewController.swift */,
-				22AC2C0A220193AF008FEAD9 /* PrefixHeader.pch */,
-				22BADC8021FABC18005873A3 /* Main.storyboard */,
-				22BADC8321FABC1A005873A3 /* Assets.xcassets */,
-				22BADC8521FABC1A005873A3 /* LaunchScreen.storyboard */,
+				221B5AC8221F94010046B680 /* SupportingFiles */,
 				22BADC8821FABC1A005873A3 /* Info.plist */,
-				22BADC8921FABC1A005873A3 /* main.m */,
-				22E3AA552216CB70000A6693 /* VNNetWorking-Bridging-Header.h */,
 			);
 			path = VNNetWorking;
 			sourceTree = "<group>";
