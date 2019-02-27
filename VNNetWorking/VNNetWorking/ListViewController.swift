@@ -33,6 +33,11 @@ class ListViewController: UIViewController {
             }
         }
     }
+    
+    func userInfo() {
+        let list = ListViewModel()
+        list.getBaiduInfo()
+    }
     /*
     // MARK: - Navigation
 

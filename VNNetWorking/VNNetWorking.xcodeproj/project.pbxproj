@@ -20,6 +20,13 @@
 		22BADCA621FABDAD005873A3 /* VNAPIDataFunc.m in Sources */ = {isa = PBXBuildFile; fileRef = 22BADCA521FABDAD005873A3 /* VNAPIDataFunc.m */; };
 		22BADCB021FAE955005873A3 /* VNAPIManager+home.m in Sources */ = {isa = PBXBuildFile; fileRef = 22BADCAF21FAE955005873A3 /* VNAPIManager+home.m */; };
 		22E3AA572216CB70000A6693 /* ListRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E3AA562216CB70000A6693 /* ListRequest.swift */; };
+		22FFA4B62226279C00E012CB /* Parsable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FFA4B52226279C00E012CB /* Parsable.swift */; };
+		22FFA4B9222629B700E012CB /* VNRequestProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FFA4B8222629B700E012CB /* VNRequestProtocol.swift */; };
+		22FFA4BB22262B3D00E012CB /* BaiduRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FFA4BA22262B3D00E012CB /* BaiduRequest.swift */; };
+		22FFA4BD22262E2C00E012CB /* Clinet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FFA4BC22262E2C00E012CB /* Clinet.swift */; };
+		22FFA4BF22262FF900E012CB /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FFA4BE22262FF900E012CB /* User.swift */; };
+		22FFA4C12226302000E012CB /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FFA4C02226302000E012CB /* Manager.swift */; };
+		22FFA4C42226353000E012CB /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FFA4C32226353000E012CB /* ListViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +66,13 @@
 		22BADCAF21FAE955005873A3 /* VNAPIManager+home.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "VNAPIManager+home.m"; sourceTree = "<group>"; };
 		22E3AA552216CB70000A6693 /* VNNetWorking-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VNNetWorking-Bridging-Header.h"; sourceTree = "<group>"; };
 		22E3AA562216CB70000A6693 /* ListRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRequest.swift; sourceTree = "<group>"; };
+		22FFA4B52226279C00E012CB /* Parsable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parsable.swift; sourceTree = "<group>"; };
+		22FFA4B8222629B700E012CB /* VNRequestProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VNRequestProtocol.swift; sourceTree = "<group>"; };
+		22FFA4BA22262B3D00E012CB /* BaiduRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaiduRequest.swift; sourceTree = "<group>"; };
+		22FFA4BC22262E2C00E012CB /* Clinet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clinet.swift; sourceTree = "<group>"; };
+		22FFA4BE22262FF900E012CB /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		22FFA4C02226302000E012CB /* Manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Manager.swift; sourceTree = "<group>"; };
+		22FFA4C32226353000E012CB /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,12 +129,14 @@
 		22BADC7921FABC18005873A3 /* VNNetWorking */ = {
 			isa = PBXGroup;
 			children = (
+				22FFA4B7222627A300E012CB /* SwiftProtocol */,
 				22BADCA821FABDCE005873A3 /* UrlSession */,
 				22E3AA582216CB78000A6693 /* SwiftNetFunction */,
 				22BADCA721FABDB9005873A3 /* NetFunction */,
 				22BADC7D21FABC18005873A3 /* ViewController.h */,
 				22BADC7E21FABC18005873A3 /* ViewController.m */,
 				221065C2221E945A003F2F89 /* ListViewController.swift */,
+				22FFA4C32226353000E012CB /* ListViewModel.swift */,
 				221B5AC8221F94010046B680 /* SupportingFiles */,
 				22BADC8821FABC1A005873A3 /* Info.plist */,
 			);
@@ -173,6 +189,27 @@
 				22E3AA562216CB70000A6693 /* ListRequest.swift */,
 			);
 			path = SwiftNetFunction;
+			sourceTree = "<group>";
+		};
+		22FFA4B7222627A300E012CB /* SwiftProtocol */ = {
+			isa = PBXGroup;
+			children = (
+				22FFA4B52226279C00E012CB /* Parsable.swift */,
+				22FFA4B8222629B700E012CB /* VNRequestProtocol.swift */,
+				22FFA4BA22262B3D00E012CB /* BaiduRequest.swift */,
+				22FFA4BC22262E2C00E012CB /* Clinet.swift */,
+				22FFA4C22226302700E012CB /* Model */,
+			);
+			path = SwiftProtocol;
+			sourceTree = "<group>";
+		};
+		22FFA4C22226302700E012CB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				22FFA4BE22262FF900E012CB /* User.swift */,
+				22FFA4C02226302000E012CB /* Manager.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -278,9 +315,16 @@
 			files = (
 				22BADCB021FAE955005873A3 /* VNAPIManager+home.m in Sources */,
 				22E3AA572216CB70000A6693 /* ListRequest.swift in Sources */,
+				22FFA4B9222629B700E012CB /* VNRequestProtocol.swift in Sources */,
 				22BADCA021FABCAD005873A3 /* VNUrlSession.m in Sources */,
+				22FFA4C12226302000E012CB /* Manager.swift in Sources */,
 				22BADC7F21FABC18005873A3 /* ViewController.m in Sources */,
+				22FFA4C42226353000E012CB /* ListViewModel.swift in Sources */,
+				22FFA4BD22262E2C00E012CB /* Clinet.swift in Sources */,
+				22FFA4BF22262FF900E012CB /* User.swift in Sources */,
 				22BADCA321FABD4A005873A3 /* VNAPIManager.m in Sources */,
+				22FFA4B62226279C00E012CB /* Parsable.swift in Sources */,
+				22FFA4BB22262B3D00E012CB /* BaiduRequest.swift in Sources */,
 				221065C3221E945A003F2F89 /* ListViewController.swift in Sources */,
 				22BADC8A21FABC1A005873A3 /* main.m in Sources */,
 				22BADCA621FABDAD005873A3 /* VNAPIDataFunc.m in Sources */,
@@ -446,7 +490,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N3PJA24574;
 				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
-				GCC_PREFIX_HEADER = "$(SRCROOT)/VNNetWorking/PrefixHeader.pch";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/VNNetWorking/SupportingFiles/PrefixHeader.pch";
 				INFOPLIST_FILE = VNNetWorking/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -454,7 +498,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.chuangbie.VNNetWorking;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "VNNetWorking/VNNetWorking-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/VNNetWorking/SupportingFiles/VNNetWorking-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -469,7 +513,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N3PJA24574;
 				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
-				GCC_PREFIX_HEADER = "$(SRCROOT)/VNNetWorking/PrefixHeader.pch";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/VNNetWorking/SupportingFiles/PrefixHeader.pch";
 				INFOPLIST_FILE = VNNetWorking/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -477,7 +521,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.chuangbie.VNNetWorking;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "VNNetWorking/VNNetWorking-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/VNNetWorking/SupportingFiles/VNNetWorking-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
